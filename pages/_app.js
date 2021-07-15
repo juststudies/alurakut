@@ -10,7 +10,7 @@ const GlobalStyle = createGlobalStyle`
 
   body {
     font-family: sans-serif;
-    background: #D9E6F6;
+    background: url('https://a-static.besthdwallpaper.com/asus-rog-republic-of-gamers-pixel-city-de-8-bits-papel-de-parede-1366x768-63784_46.jpg') no-repeat;
   }
 
   #__next{
