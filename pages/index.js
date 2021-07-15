@@ -4,6 +4,7 @@ import {AlurakutMenu, AlurakutProfileSidebarMenuDefault, OrkutNostalgicIconSet} 
 import ProfileRelationsBoxWrapper from '../src/components/ProfileRelationsBoxWrapper'
 import { useState } from 'react'
 
+
 function ProfileSideBar(props){
   return(
     <Box>
@@ -21,11 +22,11 @@ function ProfileSideBar(props){
 
 export default function Home() {
   const user = "juststudies"
-  
+  console.log('../src/assets/alurakut.PNG')
   const [communities, setCommunities] = useState([{
     id: '4564654a56sd65',
     title: 'Alurakut',
-    image: 'http://placehold.it/300x300'
+    image: 'https://i.imgur.com/sf5mreL.png'
   }])
 
   const followers = [
